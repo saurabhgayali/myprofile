@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Roboto", sans-serif !important;
+        background-color: #869287;
+
+        margin: 0;
+        padding: 0;
+      }
+      .round-image {
+        width: 150px; /* Adjust the width as needed */
+        height: 150px; /* Make height equal to width to maintain the circle shape */
+        border-radius: 50%;
+        object-fit: cover; /* Ensures the image covers the container without stretching */
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        padding: 16px;
+        background-color: white;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+
+      .title {
+        color: grey;
+        font-size: 18px;
+      }
+
+      button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #5b6060;
+        text-align: center;
+        cursor: pointer;
+        width: 90%;
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #5b6060;
+        margin: 0 8px;
+      }
+      h1 {
+        color: #5b6060;
+      }
+
+      button:hover,
+      a:hover {
+        opacity: 0.7;
+      }
+
+      @media (max-width: 600px) {
+        .body {
+          background-color: white !important;
+        }
+        .card {
+          max-width: 100%;
+          padding: 8px;
+        }
+
+        .title {
+          font-size: 16px;
+        }
+
+        button {
+          font-size: 16px;
+        }
+
+        a {
+          font-size: 18px;
+          margin: 0 4px;
+        }
+        .round-image {
+          width: 150px; /* Adjust the width as needed */
+          height: 150px; /* Make height equal to width to maintain the circle shape */
+          border-radius: 50%;
+          object-fit: cover; /* Ensures the image covers the container without stretching */
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <img class="round-image" src="images/profile.png" alt="John" />
+      <h1>Saurabh Gayali</h1>
+      <p class="title">Consultant II [Excelra]</p>
+      <p>Data Enthuciast and Science Illustrator</p>
+      <p>
+        <a href="tel:+918800412916">
+          <i class="fa fa-phone"></i>
+          +91 8800412916
+        </a>
+      </p>
+
+      <p>
+        <a href="mailto:saurabh.gayali@gmail.com"
+          ><i class="fa fa-envelope"></i> saurabh.gayali@gmail.com</a
+        >
+      </p>
+
+      <!-- <a href="#"><i class="fa fa-dribbble"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a> -->
+
+      <a href="https://www.thevisualstoriesstudio.com/" target="_blank"
+        ><i class="fa fa-globe"></i
+      ></a>
+
+      <!--create a section for icon of website with hyperlink-->
+
+      <a href="https://www.linkedin.com/in/saurabhgayali/" target="_blank"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <a href="https://github.com/saurabhgayali" target="_blank"
+        ><i class="fa fa-github"></i
+      ></a>
+
+      <p>
+        <a class="a2a_dd" href="https://www.addtoany.com/share">
+          <!-- create an icon for share-->
+          
+          <script src="https://static.addtoany.com/menu/page.js"></script>
+          <button><i class="fa fa-share-alt"></i> Share</button></p>
+          <script async src="https://static.addtoany.com/menu/page.js"></script>
+        </a>
+        
+    </div>
+  </body>
+</html>
